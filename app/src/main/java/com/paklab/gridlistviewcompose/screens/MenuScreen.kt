@@ -34,7 +34,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.core.R
+import com.paklab.gridlistviewcompose.R
 
 
 data class Student(val name: String, val credits: Int)
@@ -83,18 +83,18 @@ title = {
 
 
 val students = listOf(
-    Student("Mass", R.drawable.notify_panel_notification_icon_bg),
-    Student("Area", R.drawable.notify_panel_notification_icon_bg),
-    Student("Length", R.drawable.notify_panel_notification_icon_bg),
-    Student("Volume", R.drawable.notify_panel_notification_icon_bg),
-    Student("Fuel", R.drawable.notify_panel_notification_icon_bg),
-    Student("Energy", R.drawable.notify_panel_notification_icon_bg),
-    Student("Density", R.drawable.notify_panel_notification_icon_bg),
-    Student("Torque", R.drawable.notify_panel_notification_icon_bg),
-    Student("Current", R.drawable.notify_panel_notification_icon_bg),
-    Student("Flow", R.drawable.notify_panel_notification_icon_bg),
-    Student("Frequency", R.drawable.notify_panel_notification_icon_bg),
-    Student("Acceleration", R.drawable.notify_panel_notification_icon_bg),
+    Student("Mass", androidx.core.R.drawable.notification_bg_low_normal),
+    Student("Area", androidx.core.R.drawable.notification_bg_low_normal),
+    Student("Length",  androidx.core.R.drawable.notification_bg_low_normal),
+    Student("Volume",  androidx.core.R.drawable.notification_bg_low_normal),
+    Student("Fuel", androidx.core.R.drawable.notification_bg_low_normal),
+    Student("Energy",  androidx.core.R.drawable.notification_bg_low_normal),
+    Student("Density",  androidx.core.R.drawable.notification_bg_low_normal),
+    Student("Torque",  androidx.core.R.drawable.notification_bg_low_normal),
+    Student("Current",  androidx.core.R.drawable.notification_bg_low_normal),
+    Student("Flow", androidx.core.R.drawable.notification_bg_low_normal),
+    Student("Frequency",  androidx.core.R.drawable.notification_bg_low_normal),
+    Student("Acceleration",  androidx.core.R.drawable.notification_bg_low_normal),
 
     )
 
